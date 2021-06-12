@@ -33,7 +33,7 @@ services:
       - queue
 
   worker:
-    build: worker
+    build: worker 
     volumes:
       - ./worker:/worker
     working_dir: /worker
